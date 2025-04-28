@@ -8,7 +8,7 @@ const handleCommands = require('./events/interactionCreate/handleCommands');
 const Discord = require("discord.js");
 const getLocalCommands = require('./utils/getLocalCommands');
 const handleRawCommands = require('./events/interactionCreate/handleRawCommands');
-
+const configFile = require('./config.json')
 
 require('dotenv').config();
 
@@ -97,7 +97,7 @@ channel.messages.fetch({ limit: 1 }).then(messages => {
 //this is for testing the new things out
 
 client.login(
-    'MTM2NDg2OTc1NjUyNzU3NTA1MQ.G24Gdh.XYeXW-KHBkG3JQnKOYgRzNpoEhllbAt1P1kJEg'
+  configFile.testToken
 );
 
 // counting in a channel

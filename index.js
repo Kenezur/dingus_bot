@@ -8,6 +8,7 @@ const handleCommands = require('./events/interactionCreate/handleCommands');
 const Discord = require("discord.js");
 const getLocalCommands = require('./utils/getLocalCommands');
 const handleRawCommands = require('./events/interactionCreate/handleRawCommands');
+const configFile = require('./config.json')
 
 require('dotenv').config();
 
@@ -111,5 +112,5 @@ client.on('messageCreate', async msg =>{
 })
 
 client.login(
-    'MTM1MzI3Mzk4MTc1NDY3MTE5OA.GLOHMp.1lcUQzAQrFGKcVuqvvKoOx3kPCEOC7C3BACk2g'
+  configFile.mainToken
 );
