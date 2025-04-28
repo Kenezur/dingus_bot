@@ -97,7 +97,7 @@ channel.messages.fetch({ limit: 1 }).then(messages => {
 //this is for testing the new things out
 
 client.login(
-    'MTM2NDg2OTc1NjUyNzU3NTA1MQ.GvCdp0.eVeX5MrNDAfzfgYfSpimCPoe1vH-UjmeVVSRXc'
+    'MTM2NDg2OTc1NjUyNzU3NTA1MQ.G24Gdh.XYeXW-KHBkG3JQnKOYgRzNpoEhllbAt1P1kJEg'
 );
 
 // counting in a channel

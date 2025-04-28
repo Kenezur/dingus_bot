@@ -111,5 +111,5 @@ client.on('messageCreate', async msg =>{
 })
 
 client.login(
-    'MTM1MzI3Mzk4MTc1NDY3MTE5OA.G5Zdo-.svJQNyROyrWDkBKqbws1Cqvs9oK3Rb5VLu0Jkw'
+    'MTM1MzI3Mzk4MTc1NDY3MTE5OA.GLOHMp.1lcUQzAQrFGKcVuqvvKoOx3kPCEOC7C3BACk2g'
 );
